@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes shake{
+            100%{
+                transform: translate(0px,200px)
+            }
+            50%{
+                transform: translate(0px,0px)
+            }
+            30%{
+                transform:rotateZ(50deg)
+            }
+            0%{
+                transform:rotateZ(-50deg)
+            }
+        }
+        #shacka{
+            position:fixed;
+            height:200px;
+            width:200px;
+            background-image:url(https://m.media-amazon.com/images/I/91zRt62evoL.jpg);
+            background-size:cover;
+            top:35vw;
+            left:50vh;
+            animation-name:shake;
+            animation-duration:4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    </style>
+</head>
+<body>
+    <div id="shacka"></div>
+</body>
+</html>

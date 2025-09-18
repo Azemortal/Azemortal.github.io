@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes circle_move {
+            100%{
+                transform: translate(25vh,20vw);
+                z-index: 1;
+            }
+            0%{
+                z-index:2;
+            }
+            }
+        div {
+            position: absolute;
+        }
+        #square{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            top:10vh;
+            left:10vw;
+            z-index: 2;
+        }
+        #circle{
+            clip-path:ellipse(50% 50% at 50% 50%);
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            top:5vh;
+            left:5vw;
+            z-index: 1;
+            animation-name:circle_move;
+            animation-duration:4s;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+        }
+    </style>
+</head>
+<body>
+    <div id="square"></div>
+    <div id="circle"></div>
+
+</body>
+</html>

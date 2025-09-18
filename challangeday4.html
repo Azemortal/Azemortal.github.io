@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes up{
+            100%{
+                transform: translate(0px,500px)
+            }
+            80%{
+                transform: translate(0px,0px);
+                transform:rotateZ(30deg);
+            }
+            60%{
+                transform:rotateZ(-30deg)
+            }
+            50%{
+                transform:rotateZ(0deg)
+            }
+            40%{
+                transform:scale(1.5,1.5)
+            }
+            20%{
+                opacity:1;
+                animation-delay:1s;
+                transform: translate(0px,0px);
+            }
+            0%{
+                transform: translate(0px,500px)
+            }
+        }
+        #shacka{
+            animation-name:up;
+            animation-duration:4s;
+            animation-direction:normal;
+            animation-iteration-count:infinite;
+            width: 1000px;
+            height: 1000px;
+            position:fixed;
+            left:40vh;
+            top:10vw;
+            background-image:url(https://m.media-amazon.com/images/I/91zRt62evoL.jpg);
+            background-size:cover;
+        }
+        #Aloha{
+            font-size:20rem;
+            font-family:'Courier New', Courier, monospace;
+            color:black;
+            left:20vw;
+            top:20vh;
+            position:absolute;
+            opacity:0;
+        }
+    </style>
+</head>
+<body>
+    <div id="shacka"></div>
+    <div id="Aloha">Aloha</div>
+</body>
+</html>
