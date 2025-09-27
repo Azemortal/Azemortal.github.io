@@ -1,0 +1,347 @@
+@keyframes catlooking{
+    100%{
+        transform-origin: bottom right;
+        transform:rotateZ(45deg)
+    }
+    0%{
+        transform-origin: bottom right;
+        transform:rotateZ(0deg)
+    }}
+@keyframes ctsleap {
+    100%{
+        left:52vh;
+        top:90px;
+    }
+    51%{
+        left:52vh;
+        top:90px;
+    }
+    50.9%{
+        left:62vh;
+        top:51px;
+    }
+    0%{
+        left:62vh;
+        top:51px;
+    }}
+@keyframes leaveleft{
+    100%{
+        left:-120vw;
+    }
+    20%{left:0.5vw;}
+    0%{left:0.5vw;}}
+@keyframes leaveleftbed{
+    100%{
+        left:-88vw;
+    }
+    20%{left:35vw;}
+    0%{left:35vw;}}
+@keyframes apear {
+    100%{
+        opacity:1;
+    }
+    51%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;}
+    0%{
+        opacity:0;
+    }}
+@keyframes apearslowly{
+    100%{
+        opacity:1;}
+    0%{
+        opacity:0;
+    }}
+@keyframes disapear {
+    100%{
+        opacity:0;
+    }
+    51%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;}
+    0%{
+        opacity:1;
+    }}
+@keyframes catfoodbowlmovement{
+    100%{
+        left:60vw;
+    }
+    0%{
+        left:110vw;
+    }}
+@keyframes catdeath {
+    100%{
+        opacity:1;
+    }
+    51%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;}
+    0%{
+        opacity:0;
+    }}
+@keyframes catfoodgonebitch {
+    100%{
+        opacity:0;
+    }
+    51%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;}
+    0%{
+        opacity:1;
+    }}
+@keyframes textflip {
+    100%{
+        transform:rotatex(0deg)
+    }
+    0%{
+        transform:rotatex(90deg)
+    }}
+@keyframes grow{
+    100%{
+        width: 100vw;;
+    }
+    0%{
+        width:0px;
+    }}
+@keyframes agressiveshaking{
+    100%{
+        left:45vw;
+        top:4vh;
+    }
+    99%{
+        left:45vw;
+        top:4vh;
+    }
+    75%{
+        left:45vw;
+        top:4vh;
+    }
+    74%{
+        left:43vw;
+        top:6vh;
+    }
+    50%{
+        left:43vw;
+        top:6vh;
+    }
+    49%{
+        left:45vw;
+        top:6vh;
+    }
+    25%{
+        left:45vw;
+        top:6vh;
+    }
+    24%{
+        left:43vw;
+        top:4vh;
+    }
+
+    0%{
+        left:43vw;
+        top:4vh;
+    }}
+#progressbar{
+    text-decoration-color: aqua;
+    top:0;
+    width:100px;
+    height:10px;
+    background-color:green;
+    position:fixed;
+    left:0;
+    font-size: 10px;
+    z-index: 10;}
+#next {
+    position:fixed;
+    width: 180px;
+    height:90px;
+    clip-path:ellipse(50% 50% at 50% 50%);
+    background-color:white;
+    border-width: 0.5rem;
+    color:black;
+    font-size: 4rem;
+    text-align:center;
+    border-radius: 50%;
+    border-color:black;
+    border-style: solid;
+    font-family:'Times New Roman', Times, serif;
+    left: 85vw;
+    top: 82vh;
+    opacity:1;
+    z-index:100;}
+#back {
+    z-index:100;
+    position:fixed;
+    width: 180px;
+    height:90px;
+    clip-path:ellipse(50% 50% at 50% 50%);
+    background-color:white;
+    border-width: 0.5rem;
+    color:black;
+    font-size: 4rem;
+    text-align:center;
+    border-radius: 50%;
+    border-color:black;
+    border-style: solid;
+    font-family:'Times New Roman', Times, serif;
+    left: 70vw;
+    top: 82vh;
+    opacity:1;}
+#sleapingcat {
+    position:absolute;
+    width: 625px;
+    height: 625px;
+    left:30vw;
+    top:7vh;
+    background-image:url(catnosleap.png);
+    background-size:cover;
+    z-index: 3;}
+#sleap{
+    position:absolute;
+    width: 625px;
+    height: 625px;
+    left:35vw;
+    background-image:url(sleap1.png);
+    background-size:cover;
+    z-index: 2;
+    animation:1s ctsleap infinite alternate;}
+#title {
+    position:absolute;
+    background-image:url(TheBattleCatsLogobig.png);
+    background-size:cover;
+    width:99vw;
+    height:300px;
+    top:-5vh}
+#bed {
+    position:absolute;
+    background-image:url(Cat_bed.png);
+    background-size:cover;
+    width:480px;
+    height:480px;
+    left:35vw;
+    top: 31vh;}
+.bub{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    left:50vw;
+    top:-10vh;
+    background-image:url(catfoodthoughtbig.png);
+    background-size:cover;
+    opacity:0;}
+#bowl{position:absolute;
+    width: 210px;
+    height: 210px;
+    left:100vw;
+    top:50vh;
+    background-image:url(catbowlbig.png);
+    background-size:cover;
+    animation:4s 4s catfoodbowlmovement forwards;}
+#bigbowl{position:absolute;
+    width: 1500px;
+    height: 938px;
+    left:-10vw;
+    top:-10vh;
+    background-image:url(catbowlreallyreallybig.png);
+    background-size:cover;
+    animation:4s catfoodgonebitch forwards;}
+#deathcat{position:absolute;
+    width: 1375px;
+    height: 938px;
+    left:-12vw;
+    top:-10vh;
+    background-image:url(bigcat.png);
+    background-size:cover;}
+#whitevoid{
+    width:500px;
+    height:330px;
+    background-color: white;
+    opacity:0;
+    position:absolute;
+    top:5vh;
+    left:55vw;
+    z-index: 2;
+    animation: 1s 7s apear forwards;}
+#secondinviscircle{
+    position:static;
+    width:1250px;
+    height:775px;
+    background-color: transparent;
+    clip-path: circle(50%  at 50% 50%);
+    shape-outside:circle(50%  at 50% 50%);
+    float:left;}
+#hehadenough{
+    width: 100%;
+    height: 100%;
+    top:0;
+    font-size:4rem;
+    font-family:'Times New Roman', Times, serif;
+    float:top;
+    z-index:101;
+    transform:rotateX(90deg);
+    animation: 2s 2s textflip forwards;}
+#fire1{position:absolute;
+    width: 100vw;
+    height: 755px;
+    left:0vw;
+    top:-8vh;
+    background-image:url(fire1.png);
+    background-size:cover;
+    z-index:0;}
+#battlecatsassemble{position:absolute;
+    width: 100vw;
+    height: 115vh;
+    left:0vw;
+    top:-15vh;
+    background-image:url(armygathers.png);
+    background-size:cover;
+    z-index:10;}
+#angrycat{
+    position:absolute;
+    width: 200px;
+    height:200px;
+    left:43vw;
+    top:54vh;
+    background-image:url(angrycat.png);
+    background-size:cover;
+    animation:0.5s agressiveshaking infinite;} 
+#index{
+    position:absolute;
+    width:px;
+    height:px;
+    left:vw;
+    top:vh;
+    background-image:url();
+    background-size:cover;}
+.textbox {
+    position:fixed;
+    width: 500px;
+    height:150px;
+    clip-path:circle(50% 50% at 50% 50%);
+    background-color:white;
+    /*middles text*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 30px;
+    /*middles text*/
+    border-width: 0.5rem;
+    color:black;
+    font-size: 4rem;
+    border-radius: 50%;
+    border-color:black;
+    border-style: solid;
+    font-family:'Times New Roman', Times, serif;
+    left: 0vw;
+    top: 3vh;
+    opacity:1;
+    z-index:100;}
