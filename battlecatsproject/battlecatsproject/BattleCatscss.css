@@ -1,0 +1,987 @@
+@keyframes catlooking{
+    100%{
+        transform-origin: bottom right;
+        transform:rotateZ(45deg)
+    }
+    0%{
+        transform-origin: bottom right;
+        transform:rotateZ(0deg)
+    }}
+@keyframes ctsleap {
+    100%{
+        left:52vh;
+        top:90px;
+    }
+    51%{
+        left:52vh;
+        top:90px;
+    }
+    50.9%{
+        left:62vh;
+        top:51px;
+    }
+    0%{
+        left:62vh;
+        top:51px;
+    }}
+@keyframes leaveleft{
+    100%{
+        left:-120vw;
+    }
+    20%{left:0.5vw;}
+    0%{left:0.5vw;}}
+@keyframes leaveleftbed{
+    100%{
+        left:-88vw;
+    }
+    20%{left:35vw;}
+    0%{left:35vw;}}
+@keyframes apear {
+    100%{
+        opacity:1;
+    }
+    51%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;}
+    0%{
+        opacity:0;
+    }}
+@keyframes apearslowly{
+    100%{
+        opacity:1;}
+    0%{
+        opacity:0;
+    }}
+@keyframes disapear {
+    100%{
+        opacity:0;
+    }
+    51%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;}
+    0%{
+        opacity:1;
+    }}
+@keyframes catfoodbowlmovement{
+    100%{
+        left:60vw;
+    }
+    0%{
+        left:110vw;
+    }}
+@keyframes catdeath {
+    100%{
+        opacity:1;
+    }
+    51%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;}
+    0%{
+        opacity:0;
+    }}
+@keyframes catfoodgonebitch {
+    100%{
+        opacity:0;
+    }
+    51%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;}
+    0%{
+        opacity:1;
+    }}
+@keyframes textflip {
+    100%{
+        transform:rotatex(0deg)
+    }
+    0%{
+        transform:rotatex(90deg)
+    }}
+@keyframes textflip2 {
+    100%{
+        opacity: 1;
+        transform:rotatex(0deg)
+    }
+    0%{
+        opacity:0;
+        transform:rotatex(90deg)
+    }}
+@keyframes grow{
+    100%{
+        width: 100vw;;
+    }
+    0%{
+        width:0px;
+    }}
+@keyframes agressiveshaking{
+    100%{
+        left:45vw;
+        top:4vh;
+    }
+    99%{
+        left:45vw;
+        top:4vh;
+    }
+    75%{
+        left:45vw;
+        top:4vh;
+    }
+    74%{
+        left:43vw;
+        top:6vh;
+    }
+    50%{
+        left:43vw;
+        top:6vh;
+    }
+    49%{
+        left:45vw;
+        top:6vh;
+    }
+    25%{
+        left:45vw;
+        top:6vh;
+    }
+    24%{
+        left:43vw;
+        top:4vh;
+    }
+
+    0%{
+        left:43vw;
+        top:4vh;
+    }}
+@keyframes disapearslowly{
+    100%{
+        opacity:0;
+    }
+    70%{
+        opacity:0.7
+    }
+    0%{
+        opacity:1;
+    }}
+@keyframes apearanddisapear{
+    100%{
+        opacity:0;
+    }
+    70%{
+        opacity:1;
+    }
+    33%{
+        opacity:1;
+    }
+    0%{
+        opacity:0;
+    }}
+@keyframes bunbungangsta{
+    100%{
+        left:100vw;
+    }
+    85%{
+        left:30vw;
+    }
+    80%{
+        left:15vw;
+    }
+    75%{
+        left:30vw;
+    }
+    70%{
+        left:15vw;
+    }
+    65%{
+        left:30vw;
+    }
+    60%{
+        left:15vw;
+    }
+    55%{
+        left:30vw;
+    }
+    50%{
+        left:15vw;
+    }
+    45%{
+        left:30vw;
+    }
+    40%{
+        left:15vw;
+    }
+    35%{
+        left:30vw;
+    }
+    30%{
+        left:15vw;
+    }
+    25%{
+        left:30vw;
+    }
+    20%{
+        left:15vw;
+
+    }
+    15%{
+        left:20vw;
+    }
+    0%{
+        left:-50vw
+    }}
+@keyframes catint1{
+    100%{
+        left:60vw;
+    }
+    0%{
+        left:100vw
+    }}
+@keyframes catint2{
+    100%{
+        left:0vw;
+    }
+    0%{
+        left:-50vw;
+    }}
+@keyframes catbattle{
+    100%{
+        left:60vw;
+    }
+    0%{
+        left:70vw
+    }}
+@keyframes dogbattle{
+    100%{
+        left:50vw;
+    }
+    0%{
+        left:40vw
+    }}
+@keyframes gorillasmash{
+    100%{
+        top:10vh;
+    }
+    0%{
+        top:-10vw;
+    }}
+#progressbar{
+    text-decoration-color: aqua;
+    top:0;
+    width:100px;
+    height:10px;
+    background-color:green;
+    position:fixed;
+    left:0;
+    font-size: 10px;
+    z-index: 100;}
+#next {
+    position:fixed;
+    width: 180px;
+    height:90px;
+    clip-path:ellipse(50% 50% at 50% 50%);
+    background-color:white;
+    border-width: 0.5rem;
+    color:black;
+    font-size: 4rem;
+    text-align:center;
+    border-radius: 50%;
+    border-color:black;
+    border-style: solid;
+    font-family:'Times New Roman', Times, serif;
+    left: 85vw;
+    top: 82vh;
+    opacity:1;
+    z-index:100;}
+#back {
+    z-index:100;
+    position:fixed;
+    width: 180px;
+    height:90px;
+    clip-path:ellipse(50% 50% at 50% 50%);
+    background-color:white;
+    border-width: 0.5rem;
+    color:black;
+    font-size: 4rem;
+    text-align:center;
+    border-radius: 50%;
+    border-color:black;
+    border-style: solid;
+    font-family:'Times New Roman', Times, serif;
+    left: 70vw;
+    top: 82vh;
+    opacity:1;}
+#sleapingcat {
+    position:absolute;
+    width: 625px;
+    height: 625px;
+    left:30vw;
+    top:7vh;
+    background-image:url(catnosleap.png);
+    background-size:cover;
+    z-index: 3;}
+#sleap{
+    position:absolute;
+    width: 625px;
+    height: 625px;
+    left:35vw;
+    background-image:url(sleap1.png);
+    background-size:cover;
+    z-index: 2;
+    animation:1s ctsleap infinite alternate;}
+#title {
+    position:absolute;
+    background-image:url(TheBattleCatsLogobig.png);
+    background-size:cover;
+    width:99vw;
+    height:300px;
+    top:-5vh}
+#bed {
+    position:absolute;
+    background-image:url(Cat_bed.png);
+    background-size:cover;
+    width:480px;
+    height:480px;
+    left:35vw;
+    top: 31vh;}
+.bub{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    left:50vw;
+    top:-10vh;
+    background-image:url(catfoodthoughtbig.png);
+    background-size:cover;
+    opacity:0;}
+#bowl{position:absolute;
+    width: 210px;
+    height: 210px;
+    left:100vw;
+    top:50vh;
+    background-image:url(catbowlbig.png);
+    background-size:cover;
+    animation:4s 4s catfoodbowlmovement forwards;}
+#bigbowl{position:absolute;
+    width: 1500px;
+    height: 938px;
+    left:-10vw;
+    top:-10vh;
+    background-image:url(catbowlreallyreallybig.png);
+    background-size:cover;
+    animation:4s catfoodgonebitch forwards;}
+#deathcat{position:absolute;
+    width: 1375px;
+    height: 938px;
+    left:-12vw;
+    top:-10vh;
+    background-image:url(bigcat.png);
+    background-size:cover;}
+#whitevoid{
+    width:500px;
+    height:330px;
+    background-color: white;
+    opacity:0;
+    position:absolute;
+    top:5vh;
+    left:55vw;
+    z-index: 2;
+    animation: 1s 7s apear forwards;}
+#secondinviscircle{
+    position:static;
+    width:1250px;
+    height:775px;
+    background-color: transparent;
+    clip-path: circle(50%  at 50% 50%);
+    shape-outside:circle(50%  at 50% 50%);
+    float:left;}
+#hehadenough{
+    width: 100%;
+    height: 100%;
+    top:0;
+    font-size:4rem;
+    font-family:'Times New Roman', Times, serif;
+    float:top;
+    z-index:101;
+    transform:rotateX(90deg);
+    animation: 2s 2s textflip forwards;}
+#fire1{position:absolute;
+    width: 100vw;
+    height: 755px;
+    left:0vw;
+    top:-8vh;
+    background-image:url(fire1.png);
+    background-size:cover;
+    z-index:0;}
+#angrycat{
+    position:absolute;
+    width: 200px;
+    height:200px;
+    left:43vw;
+    top:54vh;
+    background-image:url(angrycat.png);
+    background-size:cover;
+    animation:0.5s agressiveshaking infinite;} 
+#index{
+    position:absolute;
+    width:px;
+    height:px;
+    left:vw;
+    top:vh;
+    background-image:url();
+    background-size:cover;}
+.textbox {
+    position:fixed;
+    width: 500px;
+    height:150px;
+    clip-path:circle(50% 50% at 50% 50%);
+    background-color:white;
+    /*middles text*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 30px;
+    /*middles text*/
+    border-width: 0.5rem;
+    color:black;
+    font-size: 4rem;
+    border-radius: 50%;
+    border-color:black;
+    border-style: solid;
+    font-family:'Times New Roman', Times, serif;
+    left: 0vw;
+    top: 3vh;
+    opacity:1;
+    z-index:100;}
+#countriesonfire{position:absolute;
+    width: 1425px;
+    height: 712px;
+    margin:0;
+    left:3vw;
+    border:0;
+    background-image:url(countriesonfire.png);
+    background-size:cover;}
+#invaded{
+    top:35vh;
+    opacity:0;
+    animation: 2s 2s textflip2 forwards;}
+#startedconcur{
+    top:35vh;
+    left:61vw;
+    opacity:0;
+    animation: 2s 2s textflip2 forwards;}
+#battlecatsassemble{position:absolute;
+    width: 100vw;
+    height: 115vh;
+    left:0vw;
+    top:-15vh;
+    background-image:url(armygathers.png);
+    background-size:cover;
+    z-index:1;}
+#doggoarmy{position:absolute;
+    width: 100vw;
+    height: 108vh;
+    left:0vw;
+    top:-8vh;
+    background-image:url(dogoarmynew.png);
+    background-size:cover;
+    z-index:1;}
+#blackscreen1{position:absolute;
+    width: 100vw;
+    height: 108vh;
+    left:0vw;
+    top:-8vh;
+    background-color:black;
+    background-size:cover;
+    animation: 5s disapearslowly 4s forwards;
+    z-index:3;}
+#atbbuc{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:37vw;
+    top:30vh;
+    background-image:url(catabouttofetbeatup.png);
+    background-size:cover;
+    opacity:1;
+    animation: 1s disapear 1s forwards;
+    z-index: 1;}
+#beatupcat{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:37vw;
+    top:30vh;
+    opacity:0;
+    background-image:url(beatupcat.png);
+    background-size:cover;
+    animation: 1s apear 1s forwards;
+    z-index: 1;}
+#bunbun{
+    animation:2s bunbungangsta 1s forwards;
+    position:absolute;
+    width: 800px;
+    height: 800px;
+    left:-50vw;/*left:-50 to disapear 100 to disapaear too*/
+    top:-10vh;
+    background-image:url(bunbun.png);
+    background-size:cover;
+    z-index: 2;}
+#goldencaptual{
+    position:absolute;
+    width: 800px;
+    height:800px;
+    left:23vw;
+    top:-10vh;
+    background-image:url(goldencatcaptual.png);
+    background-size:cover;
+    animation:1s disapear forwards;} 
+#explostion1{
+    position:absolute;
+    width: 800px;
+    height:800px;
+    left:23vw;
+    top:-10vh;
+    background-image:url(goldencatcaptualexploating.png);
+    background-size:cover;
+    opacity:0;
+    z-index: 2;
+    animation:1s apear forwards;} 
+#goldcat{
+    position:absolute;
+    width: 400px;
+    height:400px;
+    left:37vw;
+    top:27vh;
+    background-size:cover;
+    opacity:0;
+    z-index: 3;
+    animation:1s apear forwards;} 
+#goldencat{
+    position:absolute;
+    width: 700px;
+    height:700px;
+    left:27vw;
+    top:0vh;
+    background-size:cover;
+    opacity:0;
+    z-index: 3;
+    animation:1s apear forwards;
+    z-index:5;} 
+#catintroductiontextbuble1{
+    left:100vw;
+    animation:1s catint1 1s forwards;}
+#catintroductiontextbuble2{
+    top:65vh;
+    left:-50vw;
+    animation:1s catint2 1.5s forwards;}
+#whitevoid2{
+    position:absolute;
+    width:200vw;
+    height:200vh;
+    z-index:4;
+    background-color: white;
+    opacity:0;
+    animation:1s apear 0.75s forwards;}
+#NOOOOOO{
+    opacity:0;
+    left:60vw;
+    animation:1s apear 0.9s forwards;}
+#gc2{
+    position:absolute;
+    width: 700px;
+    height:700px;
+    left:27vw;
+    top:0vh;
+    background-size:cover;
+    opacity:0;
+    animation:1s apear 0.9s forwards;
+    z-index:7;
+    background-image:url(kasli_jumpscared.png)} 
+#whitevoid3{
+    position:absolute;
+    width:200vw;
+    height:200vh;
+    z-index:6;
+    background-color: white;
+    opacity:0;
+    animation:1s apear 0.9s forwards;}
+#gc3{
+    position:absolute;
+    width: 700px;
+    height:700px;
+    left:27vw;
+    top:0vh;
+    background-size:cover;
+    opacity:0;
+    animation:1s apear 1.50s forwards;
+    z-index:9;
+    background-image:url(Kasli_surprised.png)} 
+#whitevoid4{
+    position:absolute;
+    width:200vw;
+    height:200vh;
+    z-index:8;
+    background-color: white;
+    opacity:0;
+    animation:1s apear 1.50s forwards;}
+#NOOOOOO2{
+    opacity:0;
+    left:60vw;
+    animation:1s apear 1.50s forwards;}
+#NOOOOOO3{
+    opacity:0;
+    left:60vw;
+    animation:1s apear 3.25s forwards;
+    font-size: 3rem;}
+#gc4{
+    position:absolute;
+    width: 700px;
+    height:700px;
+    left:27vw;
+    top:0vh;
+    background-size:cover;
+    opacity:0;
+    animation:1s apear 3.25s forwards;
+    z-index:11;
+    background-image:url(Kasli_talking.png)} 
+#whitevoid5{
+    position:absolute;
+    width:200vw;
+    height:200vh;
+    z-index:10;
+    background-color: white;
+    opacity:0;
+    animation:1s apear 3.25s forwards;}
+#NOOOOOO6{
+    opacity:0;
+    left:60vw;
+    animation:1s apear 5.5s forwards;
+    font-size: 3rem;}
+#refrencecat6{
+    position:absolute;
+    width: 625px;
+    height: 625px;
+    left:30vw;
+    top:7vh;
+    background-image:url(CatLookingRightbig.png);
+    background-size:cover;
+    z-index: 13;
+    opacity:0;
+    animation:1s apear 5.5s forwards;}
+#whitevoid6{
+    position:absolute;
+    width:200vw;
+    height:200vh;
+    z-index:12;
+    background-color: white;
+    opacity:0;
+    animation:1s apear 5.5s forwards;}
+#NOOOOOO7{
+    opacity:0;
+    left:60vw;
+    animation:1s apear 6.75s forwards;
+    font-size: 3rem;}
+#gc7{
+    position:absolute;
+    width: 700px;
+    height:700px;
+    left:27vw;
+    top:0vh;
+    background-size:cover;
+    opacity:0;
+    animation:1s apear 6.75s forwards;
+    z-index:15;
+    background-image:url(Kasli_sad.png)} 
+#whitevoid7{
+    position:absolute;
+    width:200vw;
+    height:200vh;
+    z-index:14;
+    background-color: white;
+    opacity:0;
+    animation:1s apear 6.75s forwards;}
+#NOOOOOO8{
+    opacity:0;
+    left:60vw;
+    animation:1s apear 9s forwards;
+    font-size: 3rem;}
+#gc8{
+    position:absolute;
+    width: 700px;
+    height:700px;
+    left:27vw;
+    top:0vh;
+    background-size:cover;
+    opacity:0;
+    animation:1s apear 8s forwards;
+    z-index:17;
+    background-image:url(Kasli_ears.png)} 
+#whitevoid8{
+    position:absolute;
+    width:200vw;
+    height:200vh;
+    z-index:16;
+    background-color: white;
+    opacity:0;
+    animation:1s apear 8s forwards;}
+#NOOOOOO9{
+    opacity:0;
+    left:60vw;
+    animation:1s apear 11s forwards;
+    font-size: 3rem;}
+#gc9{
+    position:absolute;
+    width: 700px;
+    height:700px;
+    left:27vw;
+    top:0vh;
+    background-size:cover;
+    opacity:0;
+    animation:1s apear 11s forwards;
+    z-index:19;
+    background-image:url(Kasli_happy.png)} 
+#whitevoid9{
+    position:absolute;
+    width:200vw;
+    height:200vh;
+    z-index:17;
+    background-color: white;
+    opacity:0;
+    animation:1s apear 11s forwards;}
+#hellcat{
+    position:absolute;
+    width: 600px;
+    height:600px;
+    left:30vw;
+    top:0vh;
+    background-size:cover;
+    opacity:0;
+    z-index: 3;
+    animation:1s apear forwards;} 
+.newtextbox {
+    position:fixed;
+    width: 500px;
+    height:150px;
+    clip-path:circle(50% 50% at 50% 50%);
+    background-color:white;
+    /*middles text*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 30px;
+    /*middles text*/
+    border-width: 0.5rem;
+    color:black;
+    font-size: 3rem;
+    border-radius: 50%;
+    border-color:darkcyan;
+    border-style: solid;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 0vw;
+    top: 3vh;
+    opacity:1;
+    z-index:100;}
+#battalingcat {
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:70vw;
+    top:30vh;
+    background-image:url(THEBATTLECAT.png);
+    background-size:cover;
+    z-index: 10;
+    animation:1s catbattle infinite alternate}
+#battleingdog {
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:40vw;
+    top:30vh;
+    background-image:url(truedoggo.png);
+    background-size:cover;
+    z-index: 10;
+    animation:1s dogbattle infinite alternate}
+#mercat{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:30vw;
+    top:-10vh;
+    background-image:url(mer-cat.png);
+    background-size:cover;
+    z-index: 10;}
+#dead{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:33vw;
+    top:20vh;
+    background-image:url(deadmoth.png);
+    background-size:cover;
+    z-index: 9;}
+#monkeygorilla {
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:10vw;
+    top:10vh;
+    background-image:url(gorillasmash.png);
+    background-size:cover;
+    z-index: 11;
+    animation:0.25s gorillasmash infinite alternate}
+#flatened{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:10vw;
+    top:10vh;
+    background-image:url(flattenedcat.png);
+    background-size:cover;
+    z-index: 10;}
+#backofcat{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:10vw;
+    top:40vh;
+    background-image:url(catback.png);
+    background-size:cover;
+    z-index: 15;}
+#backofcatcannon{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:-10vw;
+    top:40vh;
+    background-image:url(backcatcannon.png);
+    background-size:cover;
+    z-index: 15;
+    animation:1s disapear 15s forwards;}
+#offend{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:25vw;
+    top:30vh;
+    background-image:url(offendedcat.png);
+    background-size:cover;
+    z-index: 30;
+    opacity:0;
+    animation:1s apear 15s forwards;}
+#catcannon{
+    position:absolute;
+    width: 425px;
+    height: 850px;
+    left:45vw;
+    top:-40vh;
+    background-image:url(catcannon.png);
+    background-size:cover;
+    z-index: 30;
+    transform:scaleX(-1);
+    opacity:0;
+    animation:1s apear 15s forwards;}
+#blackscreen2{position:absolute;
+    width: 100vw;
+    height: 108vh;
+    left:0vw;
+    top:-8vh;
+    background-color:black;
+    background-size:cover;
+    animation: 5s disapearslowly 4s forwards;
+    z-index:30;}
+#whitevoid10{
+    position:absolute;
+    width:108vw;
+    height:108vh;
+    z-index:17;
+    top:-8vh;
+    background-color: white;
+    opacity:0;
+    background-size: cover;
+    animation:1s apear 15s forwards;}
+#backofcatcannon2{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:-10vw;
+    top:40vh;
+    background-image:url(backcatcannon.png);
+    background-size:cover;
+    z-index: 15;}
+#lazer{position:absolute;
+    width: 100vw;
+    height: 108vh;
+    left:0vw;
+    top:-8vh;
+    background-image:url(giantlazer.png);
+    background-size:cover;
+    z-index:30;}
+#GorillaNO{
+    position:absolute;
+    width: 425px;
+    height: 425px;
+    left:40vw;
+    top:20vh;
+    background-image:url(ohgorilla.png);
+    background-size:cover;
+    z-index: 11;}
+#firethecatcannon {
+    position:fixed;
+    width: 180px;
+    height:90px;
+    background-color:rgb(249, 255, 63);
+    border-width: 0.5rem;
+    color:black;
+    font-size: 2rem;
+    text-align:center;
+    border-color:black;
+    border-style: solid;
+    text-align:middle;
+    font-family:'Times New Roman', Times, serif;
+    left:0vw;
+    top: 20vh;
+    opacity:1;
+    z-index:100;}
+#outerspace{position:absolute;
+    width: 100vw;
+    height: 108vh;
+    left:0vw;
+    top:-8vh;
+    background-image:url(outerspace.png);
+    background-size:cover;
+    z-index:30;}
+#theend{position:absolute;
+    width: 100vw;
+    height: 108vh;
+    left:0vw;
+    top:-8vh;
+    background-image:url(Theend.png);
+    background-size:cover;
+    z-index:1;}
+#texttheend{
+    width:50vw;
+    height:50vh;
+    left:25vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkorange;
+    font-style: italic;
+    font-size:12rem;
+    z-index:400;
+    position:absolute;
+    -webkit-text-stroke: 5px black;}
+#disclaimer{
+    width:28vw;
+    height:50vh;
+    top:30vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size:1rem;
+    z-index:400;
+    position:absolute;
+}
