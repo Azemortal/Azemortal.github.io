@@ -410,7 +410,7 @@
     animation: 2s 2s textflip forwards;}
 #fire1{position:absolute;
     width: 100vw;
-    height: 755px;
+    height: 110vh;
     left:0vw;
     top:-8vh;
     background-image:url(fire1.png);
@@ -978,7 +978,7 @@
 #disclaimer{
     width:28vw;
     height:50vh;
-    top:30vh;
+    top:vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:black;
     font-size:1rem;
