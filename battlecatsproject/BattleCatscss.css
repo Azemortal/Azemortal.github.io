@@ -956,3 +956,32 @@
     background-image:url(outerspace.png);
     background-size:cover;
     z-index:30;}
+#theend{position:absolute;
+    width: 100vw;
+    height: 108vh;
+    left:0vw;
+    top:-8vh;
+    background-image:url(Theend.png);
+    background-size:cover;
+    z-index:1;}
+#texttheend{
+    width:50vw;
+    height:50vh;
+    left:25vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkorange;
+    font-style: italic;
+    font-size:12rem;
+    z-index:400;
+    position:absolute;
+    -webkit-text-stroke: 5px black;}
+#disclaimer{
+    width:28vw;
+    height:50vh;
+    top:30vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size:1rem;
+    z-index:400;
+    position:absolute;
+}
